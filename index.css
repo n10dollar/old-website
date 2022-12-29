@@ -1,4 +1,4 @@
-.row, .col {
+.row, .colX, .container {
     padding: lrem;
     border: 2px solid black;
 }
@@ -8,6 +8,6 @@
     background-color: red;
 }
 .row-2 {
-    font-family: "Ariel", Ariel, serif;
-    background-color: pink;
+    /*font-family: "Ariel", Ariel, serif;
+    background-color: pink; */
 }
