@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="index.css">
-        <title>Yo mama!</title>
-    </head>
-    <body>
-        <script src="node_modules/bootstrap/dist/js/boostrap.bundle.js"></script>
+<script src="node_modules/bootstrap/dist/js/boostrap.bundle.js"></script>
         <p>This is a paragraph.</p>
 
 <!--
@@ -61,5 +52,22 @@
             <button type="button" class="btn btn-outline-primary">Click this bić</button>
             <button type="button" class="btn btn-outline-danger btn-lg" disabled>Click this bić too!</button>
         </div>
-    </body>
-</html>
+
+
+.row, .colX, .container {
+    padding: lrem;
+    border: 2px solid black;
+}
+
+.row-1 {
+    font-family: "Times New Roman", Times, serif;
+    background-color: red;
+}
+.row-2 {
+    /*font-family: "Ariel", Ariel, serif;
+    background-color: pink; */
+}
+
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>$.get("../components/navbar.html", function(data){$("#nav-placeholder").replaceWith(data);});</script>
