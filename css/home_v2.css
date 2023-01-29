@@ -1,0 +1,9 @@
+body {
+	overflow-x: hidden;
+	font-family: 'Verdana', sans-serif;
+	color: #7CB8FF;
+}
+
+#top-bar {
+	background-color: #A400C4;
+}
