@@ -5,5 +5,10 @@ body {
 }
 
 #top-bar {
-	background-color: #A400C4;
+	background-color: #C622E6;
+}
+
+#navbar-logo {
+	width: 5rem;
+	height: auto;
 }

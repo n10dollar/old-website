@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home Version 2!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Version 2!</title>
 
-	<!-- home_v2 CSS file -->
-	<link rel="stylesheet" href="../css/home_v2.css">
+<!-- home_v2 CSS file -->
+<link rel="stylesheet" href="../css/home_v2.css">
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="../npm/node_modules/bootstrap/dist/css/bootstrap.min.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="../npm/node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
+<div class="container">
+	<div id="top-bar" class="col-12 text-right">
+		<p>Neil's website babyyy!</p>
+	</div>
+</div>
+
+<nav class="navbar bg-light navbar-expand-lg" id="navigation-bar">
 	<div class="container">
-		<div id="top-bar" class="col-12 text-right">
-			<p>Neil's website babyyy!</p>
+		<img class="navbar-brand" id="navbar-logo" src="../media/logo.png" title="Logo" alt="Logo">
+
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbar-options">
+			<ul class="navbar-nav ml auto">
+				<li class="nav-item"><a class="nav-link" href="https://www.youtube.com/">Page 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="https://www.youtube.com/">Page 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="https://www.youtube.com/">Page 3</a></li>
+			</ul>
 		</div>
 	</div>
+</nav>
 
 
-	<!-- Bootstrap JS -->
-	<script src="../npm/node_modules/jquery/dist/jquery.slim.min.js"></script>
-	<script src="../npm/node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="../npm/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../npm/node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="../npm/node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../npm/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
