@@ -12,3 +12,20 @@ body {
 	width: 5rem;
 	height: auto;
 }
+
+.navbar {
+	font-size: 1.2rem;
+	font-family: Georgia, serif;
+}
+
+.nav-link {
+	color: dimgray!important;
+}
+
+.nav-link.active, .nav-link:hover {
+	color: blue!important;
+}
+
+span {
+	color:blue;
+}
