@@ -3,6 +3,7 @@ body {
 	font-size: 1.2rem;
 	font-family: Georgia, serif !important;
 	color: darkgray;
+	background-color: lightgreen !important;
 }
 
 #top-bar {
@@ -10,28 +11,7 @@ body {
 	font-size: 1.3rem;;
 }
 
-#navbar-logo {
-	width: 5rem;
-	height: auto;
-}
-
-.nav-link {
-	color: darkgray;!important;
-}
-
-.nav-link.active {
-	color: blue!important;
-}
-
-.nav-link:hover {
-	color: #ffa91f!important;
-}
-
-
-span {
-	color:blue;
-}
-
+/* carousel */
 .carousel-item-prev, 
 .carousel-item-next, 
 .carousel-item.active {
@@ -42,24 +22,19 @@ span {
 	border-bottom: .2rem solid blue;
 }
 
-.no-padding{
-  padding: 0% !important;
+#back-img {
+	background-image: url('../media/fitness.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	height: 50vh;
+	margin: 0rem 0rem;
 }
 
-.no-margins{
-  margin: 0% !important;
+.hobby-card {
+	background-color: white;
 }
 
-.nav-item {
-	border-bottom: .2rem solid black;
-	margin: .2rem;
-}
-
-.nav-link {
-	padding: 0% !important;
-	margin: .2rem;
-}
-
-.navbar {
-	font-size: 1.4rem;
+.back-img-content {
+	background-color: white;
 }

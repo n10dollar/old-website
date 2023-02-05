@@ -1,0 +1,39 @@
+/* navbar */
+#navbar-logo {
+	width: 5rem;
+	height: auto;
+}
+
+.nav-item {
+	border-bottom: .2rem solid black;
+	margin: .2rem;
+}
+
+.nav-link {
+	padding: 0% !important;
+	margin: .2rem;
+}
+
+.navbar {
+	font-size: 1.4rem;
+}
+
+.nav-link {
+	color: darkgray;!important;
+}
+
+.nav-link.active {
+	color: blue!important;
+}
+
+.nav-link:hover {
+	color: #ffa91f!important;
+}
+
+.no-padding{
+  padding: 0% !important;
+}
+
+.no-margins{
+  margin: 0% !important;
+}
